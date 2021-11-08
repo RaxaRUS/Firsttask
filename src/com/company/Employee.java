@@ -31,7 +31,8 @@ class Employee extends Human {
         this.salary = salary;
     }
 
-    public void Employeedisplay() {
+    public void display() {
+        super.display();
         System.out.printf("Currently working in: %s \n", this.getCompany());
         System.out.printf("Salary: %d euro\n", this.getSalary());
     }
