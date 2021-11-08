@@ -27,7 +27,8 @@ class Programmist extends Employee {
     }
 
     public void display() {
-        super.display();
+        super.Humandisplay();
+        super.Employeedisplay();
         System.out.printf("Main programming language: %s \n", this.getMain_prog_lang());
         System.out.printf("Work experience: %d years \n \n", this.getWork_exp());
     }

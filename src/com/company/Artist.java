@@ -27,7 +27,8 @@ class Artist extends Employee {
     }
 
     public void display() {
-        super.display();
+        super.Humandisplay();
+        super.Employeedisplay();
         System.out.printf("Artist specialisation: %s \n", this.getSpecialisation());
         System.out.printf("Work experience: %d years \n \n", this.getWork_exp());
     }

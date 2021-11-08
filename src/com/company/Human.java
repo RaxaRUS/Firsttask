@@ -25,7 +25,7 @@ class Human {
         this.age = age;
     }
 
-    public void display(){
+    public void Humandisplay(){
         System.out.printf("Name: %s \n", this.getName());
         System.out.printf("Age: %d \n", this.getAge());
     }
