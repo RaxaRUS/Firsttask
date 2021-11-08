@@ -10,11 +10,6 @@ class Employee extends Human {
         this.setSalary(salary);
     }
 
-    /*public Employee(String name, int age, String company,int salary) {
-        this.setCompany(company);
-        this.setSalary(salary);
-    }*/
-
     public String getCompany() {
         return this.company;
     }
