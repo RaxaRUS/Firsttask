@@ -1,8 +1,8 @@
 package com.company;
 
 class Employee extends Human {
-    private String company;
-    private int salary;
+    private String company; //название компании
+    private int salary; //зарплата в евро
 
     Employee() {
     }

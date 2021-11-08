@@ -1,8 +1,8 @@
 package com.company;
 
 class Programmist extends Employee {
-    private String main_prog_lang;
-    private int work_exp;
+    private String main_prog_lang; //основной язык программирования
+    private int work_exp; //опыт работы в годах
 
     public Programmist(String name, int age, String company, int salary, String main_prog_lang, int work_exp) {
         this.setName(name);

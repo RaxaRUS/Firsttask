@@ -1,8 +1,8 @@
 package com.company;
 
 class Artist extends Employee {
-    private String specialisation;
-    private int work_exp;
+    private String specialisation; //специализация художника
+    private int work_exp; //опыт работы в годах
 
     public Artist(String name, int age, String company, int salary, String specialisation, int work_exp) {
         this.setName(name);

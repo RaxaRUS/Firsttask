@@ -1,8 +1,8 @@
 package com.company;
 
 class Human {
-    private String name;
-    private int age;
+    private String name; //имя
+    private int age; //возраст
 
     Human() {
     }
