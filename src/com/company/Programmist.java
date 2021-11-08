@@ -5,10 +5,7 @@ class Programmist extends Employee {
     private int work_exp; //опыт работы в годах
 
     public Programmist(String name, int age, String company, int salary, String main_prog_lang, int work_exp) {
-        this.setName(name);
-        this.setAge(age);
-        this.setCompany(company);
-        this.setSalary(salary);
+        super(name,age,company,salary);
         this.setMain_prog_lang(main_prog_lang);
         this.setWork_exp(work_exp);
     }
@@ -30,10 +27,7 @@ class Programmist extends Employee {
     }
 
     public void display() {
-        System.out.printf("Name: %s \n", this.getName());
-        System.out.printf("Age: %d \n", this.getAge());
-        System.out.printf("Currently working in: %s \n", this.getCompany());
-        System.out.printf("Salary: %d euro\n", this.getSalary());
+        super.display();
         System.out.printf("Main programming language: %s \n", this.getMain_prog_lang());
         System.out.printf("Work experience: %d years \n \n", this.getWork_exp());
     }

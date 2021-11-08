@@ -4,7 +4,9 @@ class Human {
     private String name; //имя
     private int age; //возраст
 
-    Human() {
+    public Human(String name,int age) {
+        this.setName(name);
+        this.setAge(age);
     }
 
     public String getName() {
@@ -21,5 +23,10 @@ class Human {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public void display(){
+        System.out.printf("Name: %s \n", this.getName());
+        System.out.printf("Age: %d \n", this.getAge());
     }
 }
